@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    "rootDir": "src",
+    "sourceMap": true,
+
+    "experimentalDecorators": true,
+
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "removeComments": false,
+    "noEmitHelpers": false,
+
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "exclude": [
+    "**/*.test.ts"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@notexisting/dependency",
+  "version": "0.0.0",
+  "description": "Test Dependency",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "prepack": "shx rm -rf dist/* && microbundle --format cjs,es"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "@types/enzyme": "^3.10.5",
+    "@types/jest": "^26.0.3",
+    "babel-jest": "^26.1.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "core-js": "^3.6.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-preact-pure": "^2.2.0",
+    "enzyme-to-json": "^3.5.0",
+    "jest": "^26.1.0",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "preact": "^10.4.4",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.2",
+    "shx": "^0.3.2"
+  },
+  "browserslist": [
+    "since 2018-11 and >0%",
+    "node >= 12"
+  ],
+  "files": [
+    "dist",
+    "jest*",
+    ".babelrc",
+    "src"
+  ]
+}
