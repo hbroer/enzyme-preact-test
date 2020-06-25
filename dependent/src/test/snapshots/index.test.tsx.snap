@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test Component should render without <p> (snapshot) 1`] = `
-<Component>
+<Swipe>
   <span>
     Hello World
   </span>
-</Component>
+</Swipe>
 `;
